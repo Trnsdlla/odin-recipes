@@ -15,3 +15,27 @@
     color: burlywood;
     font-family: Georgia, monospace;
 }
+
+.index__body {
+    width: 200px;
+    margin: 10px auto;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.welcome-title {
+    background-color: rgba(51, 170, 51, .3);
+    padding: 8px 24px;
+    margin: 20px auto;
+    width: auto; /* Allows the width to adapt to content */
+    text-align: center;
+    border-radius: 20px;
+    white-space: nowrap; /* Prevents text from wrapping */
+    display: inline-block;
+}
+
+.main-list li {
+    margin-bottom: 10px;
+    list-style-position: inside; /* Ensures the list is centered */
+    text-align: left; /* Allows the bullet points to be aligned */
+}
